@@ -13,6 +13,12 @@
 		A0185E6F28067EC600986062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0185E6D28067EC600986062 /* Main.storyboard */; };
 		A0185E7128067EC700986062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0185E7028067EC700986062 /* Assets.xcassets */; };
 		A0185E7428067EC700986062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0185E7228067EC700986062 /* LaunchScreen.storyboard */; };
+		A0185E9B28068A8D00986062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0185E6B28067EC600986062 /* ViewController.swift */; };
+		A0185E9C28068A8D00986062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0185E6728067EC600986062 /* AppDelegate.swift */; };
+		A0185E9D28068A8D00986062 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0185E6928067EC600986062 /* SceneDelegate.swift */; };
+		A0185EA028068A8D00986062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0185E7228067EC700986062 /* LaunchScreen.storyboard */; };
+		A0185EA128068A8D00986062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0185E7028067EC700986062 /* Assets.xcassets */; };
+		A0185EA228068A8D00986062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0185E6D28067EC600986062 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +30,19 @@
 		A0185E7028067EC700986062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0185E7328067EC700986062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0185E7528067EC700986062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0185EA628068A8D00986062 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0185EA728068A8D00986062 /* PlatziFinanzas copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PlatziFinanzas copy-Info.plist"; path = "/Users/juniorsaraviao/Documents/PlatziFinanzas/PlatziFinanzas copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		A0185E6128067EC600986062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0185E9E28068A8D00986062 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +57,7 @@
 			children = (
 				A0185E6628067EC600986062 /* PlatziFinanzas */,
 				A0185E6528067EC600986062 /* Products */,
+				A0185EA728068A8D00986062 /* PlatziFinanzas copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,6 +65,7 @@
 			isa = PBXGroup;
 			children = (
 				A0185E6428067EC600986062 /* PlatziFinanzas.app */,
+				A0185EA628068A8D00986062 /* Production.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +104,23 @@
 			productReference = A0185E6428067EC600986062 /* PlatziFinanzas.app */;
 			productType = "com.apple.product-type.application";
 		};
+		A0185E9928068A8D00986062 /* Production */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0185EA328068A8D00986062 /* Build configuration list for PBXNativeTarget "Production" */;
+			buildPhases = (
+				A0185E9A28068A8D00986062 /* Sources */,
+				A0185E9E28068A8D00986062 /* Frameworks */,
+				A0185E9F28068A8D00986062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Production;
+			productName = PlatziFinanzas;
+			productReference = A0185EA628068A8D00986062 /* Production.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -116,6 +150,7 @@
 			projectRoot = "";
 			targets = (
 				A0185E6328067EC600986062 /* PlatziFinanzas */,
+				A0185E9928068A8D00986062 /* Production */,
 			);
 		};
 /* End PBXProject section */
@@ -131,6 +166,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A0185E9F28068A8D00986062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0185EA028068A8D00986062 /* LaunchScreen.storyboard in Resources */,
+				A0185EA128068A8D00986062 /* Assets.xcassets in Resources */,
+				A0185EA228068A8D00986062 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,6 +186,16 @@
 				A0185E6C28067EC600986062 /* ViewController.swift in Sources */,
 				A0185E6828067EC600986062 /* AppDelegate.swift in Sources */,
 				A0185E6A28067EC600986062 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0185E9A28068A8D00986062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0185E9B28068A8D00986062 /* ViewController.swift in Sources */,
+				A0185E9C28068A8D00986062 /* AppDelegate.swift in Sources */,
+				A0185E9D28068A8D00986062 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,7 +359,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +387,63 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A0185EA428068A8D00986062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQYDJNLD47;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PlatziFinanzas copy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.PlatziFinanzas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A0185EA528068A8D00986062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KQYDJNLD47;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PlatziFinanzas copy-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.PlatziFinanzas;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -353,6 +464,15 @@
 			buildConfigurations = (
 				A0185E7928067EC700986062 /* Debug */,
 				A0185E7A28067EC700986062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0185EA328068A8D00986062 /* Build configuration list for PBXNativeTarget "Production" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0185EA428068A8D00986062 /* Debug */,
+				A0185EA528068A8D00986062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
