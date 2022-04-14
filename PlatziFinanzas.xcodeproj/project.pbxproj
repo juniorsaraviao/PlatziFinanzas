@@ -31,7 +31,7 @@
 		A0185E7328067EC700986062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0185E7528067EC700986062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0185EA628068A8D00986062 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A0185EA728068A8D00986062 /* PlatziFinanzas copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "PlatziFinanzas copy-Info.plist"; path = "/Users/juniorsaraviao/Documents/PlatziFinanzas/PlatziFinanzas copy-Info.plist"; sourceTree = "<absolute>"; };
+		A0185EA728068A8D00986062 /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Production.plist; path = /Users/juniorsaraviao/Documents/PlatziFinanzas/Production.plist; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +57,6 @@
 			children = (
 				A0185E6628067EC600986062 /* PlatziFinanzas */,
 				A0185E6528067EC600986062 /* Products */,
-				A0185EA728068A8D00986062 /* PlatziFinanzas copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,15 +72,104 @@
 		A0185E6628067EC600986062 /* PlatziFinanzas */ = {
 			isa = PBXGroup;
 			children = (
-				A0185E6728067EC600986062 /* AppDelegate.swift */,
+				A0185EAA2807D8CE00986062 /* Resources */,
+				A0185EA92807D86400986062 /* Base */,
+				A0185EA82807D84F00986062 /* Application */,
 				A0185E6928067EC600986062 /* SceneDelegate.swift */,
-				A0185E6B28067EC600986062 /* ViewController.swift */,
-				A0185E6D28067EC600986062 /* Main.storyboard */,
-				A0185E7028067EC700986062 /* Assets.xcassets */,
-				A0185E7228067EC700986062 /* LaunchScreen.storyboard */,
-				A0185E7528067EC700986062 /* Info.plist */,
 			);
 			path = PlatziFinanzas;
+			sourceTree = "<group>";
+		};
+		A0185EA82807D84F00986062 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A0185EAD2807D90D00986062 /* Main */,
+				A0185EAC2807D8F700986062 /* Authentication */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A0185EA92807D86400986062 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A0185E6728067EC600986062 /* AppDelegate.swift */,
+				A0185E7528067EC700986062 /* Info.plist */,
+				A0185EA728068A8D00986062 /* Production.plist */,
+				A0185E7228067EC700986062 /* LaunchScreen.storyboard */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A0185EAA2807D8CE00986062 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0185EAB2807D8E200986062 /* Images */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A0185EAB2807D8E200986062 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A0185E7028067EC700986062 /* Assets.xcassets */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A0185EAC2807D8F700986062 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				A0185EAF2807D92000986062 /* Sign in */,
+				A0185EAE2807D91700986062 /* Onboarding */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		A0185EAD2807D90D00986062 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A0185EB22807D94100986062 /* Main */,
+				A0185EB12807D93500986062 /* Profile */,
+				A0185EB02807D92900986062 /* Transactions */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A0185EAE2807D91700986062 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		A0185EAF2807D92000986062 /* Sign in */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Sign in";
+			sourceTree = "<group>";
+		};
+		A0185EB02807D92900986062 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		A0185EB12807D93500986062 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A0185EB22807D94100986062 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A0185E6B28067EC600986062 /* ViewController.swift */,
+				A0185E6D28067EC600986062 /* Main.storyboard */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,7 +432,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KQYDJNLD47;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PlatziFinanzas/Info.plist;
+				INFOPLIST_FILE = PlatziFinanzas/Base/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -372,7 +460,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KQYDJNLD47;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PlatziFinanzas/Info.plist;
+				INFOPLIST_FILE = PlatziFinanzas/Base/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -400,7 +488,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KQYDJNLD47;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "PlatziFinanzas copy-Info.plist";
+				INFOPLIST_FILE = Production.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -428,7 +516,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = KQYDJNLD47;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "PlatziFinanzas copy-Info.plist";
+				INFOPLIST_FILE = Production.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

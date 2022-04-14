@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A0185E9928068A8D00986062"
-               BuildableName = "PlatziFinanzas copy.app"
+               BuildableName = "Production.app"
                BlueprintName = "Production"
                ReferencedContainer = "container:PlatziFinanzas.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A0185E9928068A8D00986062"
-            BuildableName = "PlatziFinanzas copy.app"
+            BuildableName = "Production.app"
             BlueprintName = "Production"
             ReferencedContainer = "container:PlatziFinanzas.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A0185E9928068A8D00986062"
-            BuildableName = "PlatziFinanzas copy.app"
+            BuildableName = "Production.app"
             BlueprintName = "Production"
             ReferencedContainer = "container:PlatziFinanzas.xcodeproj">
          </BuildableReference>
