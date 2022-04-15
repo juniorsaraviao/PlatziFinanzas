@@ -20,6 +20,7 @@
 		A0185EA028068A8D00986062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0185E7228067EC700986062 /* LaunchScreen.storyboard */; };
 		A0185EA128068A8D00986062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0185E7028067EC700986062 /* Assets.xcassets */; };
 		A0185EA228068A8D00986062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0185E6D28067EC600986062 /* Main.storyboard */; };
+		A04A35D028092761009C4601 /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04A35CF28092761009C4601 /* Transactions.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		A0185E7528067EC700986062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0185EA628068A8D00986062 /* Production.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Production.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0185EA728068A8D00986062 /* Production.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Production.plist; path = /Users/juniorsaraviao/Documents/PlatziFinanzas/Production.plist; sourceTree = "<absolute>"; };
+		A04A35CF28092761009C4601 /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 		A0185EB02807D92900986062 /* Transactions */ = {
 			isa = PBXGroup;
 			children = (
+				A04A35CF28092761009C4601 /* Transactions.storyboard */,
 			);
 			path = Transactions;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 				A0185E7428067EC700986062 /* LaunchScreen.storyboard in Resources */,
 				A0185E7128067EC700986062 /* Assets.xcassets in Resources */,
 				A0185E6F28067EC600986062 /* Main.storyboard in Resources */,
+				A04A35D028092761009C4601 /* Transactions.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
