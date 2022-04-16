@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A00EB8E1280A70B2008D8255 /* Statistics.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00EB8E0280A70B2008D8255 /* Statistics.storyboard */; };
+		A00EB8E5280A71A3008D8255 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00EB8E4280A71A3008D8255 /* Budget.storyboard */; };
+		A00EB8E9280A71F7008D8255 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00EB8E7280A71F7008D8255 /* Add.storyboard */; };
+		A00EB8EC280A7225008D8255 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00EB8EB280A7225008D8255 /* Profile.storyboard */; };
 		A01748FF2807E0A00053C559 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = A01748FE2807E0A00053C559 /* View.xib */; };
 		A0185E6828067EC600986062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0185E6728067EC600986062 /* AppDelegate.swift */; };
 		A0185E6A28067EC600986062 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0185E6928067EC600986062 /* SceneDelegate.swift */; };
@@ -24,6 +28,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A00EB8E0280A70B2008D8255 /* Statistics.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Statistics.storyboard; sourceTree = "<group>"; };
+		A00EB8E4280A71A3008D8255 /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
+		A00EB8E8280A71F7008D8255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlatziFinanzas/Application/Main/Main/Base.lproj/Add.storyboard; sourceTree = "<group>"; };
+		A00EB8EB280A7225008D8255 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		A01748FE2807E0A00053C559 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		A0185E6428067EC600986062 /* PlatziFinanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatziFinanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0185E6728067EC600986062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +64,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A00EB8E3280A7171008D8255 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				A00EB8E0280A70B2008D8255 /* Statistics.storyboard */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		A00EB8E6280A71AA008D8255 /* Budget */ = {
+			isa = PBXGroup;
+			children = (
+				A00EB8E4280A71A3008D8255 /* Budget.storyboard */,
+			);
+			path = Budget;
+			sourceTree = "<group>";
+		};
+		A00EB8EA280A71FC008D8255 /* Add */ = {
+			isa = PBXGroup;
+			children = (
+				A00EB8E7280A71F7008D8255 /* Add.storyboard */,
+			);
+			path = Add;
+			sourceTree = "<group>";
+		};
 		A0185E5B28067EC600986062 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +164,9 @@
 		A0185EAD2807D90D00986062 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				A00EB8EA280A71FC008D8255 /* Add */,
+				A00EB8E6280A71AA008D8255 /* Budget */,
+				A00EB8E3280A7171008D8255 /* Statistics */,
 				A0185EB22807D94100986062 /* Main */,
 				A0185EB12807D93500986062 /* Profile */,
 				A0185EB02807D92900986062 /* Transactions */,
@@ -164,6 +199,7 @@
 		A0185EB12807D93500986062 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				A00EB8EB280A7225008D8255 /* Profile.storyboard */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -257,7 +293,11 @@
 				A01748FF2807E0A00053C559 /* View.xib in Resources */,
 				A0185E7428067EC700986062 /* LaunchScreen.storyboard in Resources */,
 				A0185E7128067EC700986062 /* Assets.xcassets in Resources */,
+				A00EB8E1280A70B2008D8255 /* Statistics.storyboard in Resources */,
 				A0185E6F28067EC600986062 /* Main.storyboard in Resources */,
+				A00EB8E5280A71A3008D8255 /* Budget.storyboard in Resources */,
+				A00EB8EC280A7225008D8255 /* Profile.storyboard in Resources */,
+				A00EB8E9280A71F7008D8255 /* Add.storyboard in Resources */,
 				A04A35D028092761009C4601 /* Transactions.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +338,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		A00EB8E7280A71F7008D8255 /* Add.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A00EB8E8280A71F7008D8255 /* Base */,
+			);
+			name = Add.storyboard;
+			sourceTree = "<group>";
+		};
 		A0185E6D28067EC600986062 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
