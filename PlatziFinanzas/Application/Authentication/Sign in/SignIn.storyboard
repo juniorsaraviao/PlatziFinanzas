@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="Jtr-Zw-BiV">
+                                <rect key="frame" x="40" y="84" width="304" height="162"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="304" id="MJj-ow-T8U"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" secondItem="Jtr-Zw-BiV" secondAttribute="height" multiplier="15:8" id="sVx-29-iBA"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oT5-Cr-e7l">
+                                <rect key="frame" x="0.0" y="798" width="384" height="98"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="98" id="UXz-zX-jrf"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Jtr-Zw-BiV" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="0B6-c8-p0A"/>
+                            <constraint firstItem="Jtr-Zw-BiV" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="0QY-Kq-XVF"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Jtr-Zw-BiV" secondAttribute="trailing" constant="40" id="1H2-2P-xue"/>
+                            <constraint firstAttribute="bottom" secondItem="oT5-Cr-e7l" secondAttribute="bottom" id="1TV-HQ-tA1"/>
+                            <constraint firstItem="Jtr-Zw-BiV" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="40" id="Bmq-fH-bwH"/>
+                            <constraint firstItem="Jtr-Zw-BiV" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="40" id="FTN-96-lIF"/>
+                            <constraint firstItem="Jtr-Zw-BiV" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="40" id="JCs-xK-zvL"/>
+                            <constraint firstItem="oT5-Cr-e7l" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Nhm-qe-H9s"/>
+                            <constraint firstItem="Jtr-Zw-BiV" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="40" id="QQw-PG-c6V"/>
+                            <constraint firstAttribute="trailing" secondItem="oT5-Cr-e7l" secondAttribute="trailing" id="cXJ-G6-eXf"/>
+                            <constraint firstItem="Jtr-Zw-BiV" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="efL-Hd-GeX"/>
+                            <constraint firstItem="oT5-Cr-e7l" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="iqC-j5-6Wn"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Jtr-Zw-BiV" secondAttribute="trailing" constant="40" id="mC7-f7-VXm"/>
+                            <constraint firstItem="Jtr-Zw-BiV" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="40" id="pWX-sm-3at"/>
+                            <constraint firstAttribute="trailing" secondItem="oT5-Cr-e7l" secondAttribute="trailing" id="vat-Pg-fWT"/>
+                            <constraint firstAttribute="bottom" secondItem="oT5-Cr-e7l" secondAttribute="bottom" id="wzf-KH-lcc"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="81.696428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="LaunchScreen" width="304" height="153"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

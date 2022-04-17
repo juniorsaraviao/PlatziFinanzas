@@ -11,6 +11,7 @@
 		A00EB8E5280A71A3008D8255 /* Budget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00EB8E4280A71A3008D8255 /* Budget.storyboard */; };
 		A00EB8E9280A71F7008D8255 /* Add.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00EB8E7280A71F7008D8255 /* Add.storyboard */; };
 		A00EB8EC280A7225008D8255 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00EB8EB280A7225008D8255 /* Profile.storyboard */; };
+		A00EB8EE280A7515008D8255 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A00EB8ED280A7515008D8255 /* SignIn.storyboard */; };
 		A01748FF2807E0A00053C559 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = A01748FE2807E0A00053C559 /* View.xib */; };
 		A0185E6828067EC600986062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0185E6728067EC600986062 /* AppDelegate.swift */; };
 		A0185E6A28067EC600986062 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0185E6928067EC600986062 /* SceneDelegate.swift */; };
@@ -32,6 +33,7 @@
 		A00EB8E4280A71A3008D8255 /* Budget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Budget.storyboard; sourceTree = "<group>"; };
 		A00EB8E8280A71F7008D8255 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = PlatziFinanzas/Application/Main/Main/Base.lproj/Add.storyboard; sourceTree = "<group>"; };
 		A00EB8EB280A7225008D8255 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		A00EB8ED280A7515008D8255 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
 		A01748FE2807E0A00053C559 /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		A0185E6428067EC600986062 /* PlatziFinanzas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatziFinanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0185E6728067EC600986062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -184,6 +186,7 @@
 		A0185EAF2807D92000986062 /* Sign in */ = {
 			isa = PBXGroup;
 			children = (
+				A00EB8ED280A7515008D8255 /* SignIn.storyboard */,
 			);
 			path = "Sign in";
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				A00EB8E1280A70B2008D8255 /* Statistics.storyboard in Resources */,
 				A0185E6F28067EC600986062 /* Main.storyboard in Resources */,
 				A00EB8E5280A71A3008D8255 /* Budget.storyboard in Resources */,
+				A00EB8EE280A7515008D8255 /* SignIn.storyboard in Resources */,
 				A00EB8EC280A7225008D8255 /* Profile.storyboard in Resources */,
 				A00EB8E9280A71F7008D8255 /* Add.storyboard in Resources */,
 				A04A35D028092761009C4601 /* Transactions.storyboard in Resources */,
