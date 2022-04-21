@@ -52,8 +52,10 @@
                                             <constraint firstAttribute="width" constant="86" id="qoZ-hC-lyS"/>
                                             <constraint firstAttribute="height" constant="50" id="rRU-20-Mwp"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RbO-E2-1NK">
                                         <rect key="frame" x="102" y="0.0" width="86" height="50"/>
@@ -62,8 +64,10 @@
                                             <constraint firstAttribute="width" constant="86" id="e4A-fg-wkE"/>
                                             <constraint firstAttribute="height" constant="50" id="uro-Ph-1DF"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yW-u7-mgH">
                                         <rect key="frame" x="204" y="0.0" width="86" height="50"/>
@@ -72,11 +76,46 @@
                                             <constraint firstAttribute="height" constant="50" id="1Sq-G7-COD"/>
                                             <constraint firstAttribute="width" constant="86" id="RF6-wz-SkE"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                     </button>
                                 </subviews>
                             </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ifw-aB-vag">
+                                <rect key="frame" x="140.5" y="647" width="103.5" height="31"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Sign up with"/>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PB2-hR-SZ6">
+                                <rect key="frame" x="20" y="396" width="344" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cdl-dA-hei">
+                                <rect key="frame" x="20" y="450" width="344" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kYh-aG-crz">
+                                <rect key="frame" x="269" y="494" width="95" height="27"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="tintColor" systemColor="systemRedColor"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Forgot Password"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="83J-jC-U2J">
+                                <rect key="frame" x="20" y="551" width="344" height="45"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="6q2-Pm-Crm"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -86,18 +125,31 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Jtr-Zw-BiV" secondAttribute="trailing" constant="40" id="1H2-2P-xue"/>
                             <constraint firstAttribute="bottom" secondItem="oT5-Cr-e7l" secondAttribute="bottom" id="1TV-HQ-tA1"/>
                             <constraint firstItem="Jtr-Zw-BiV" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="40" id="Bmq-fH-bwH"/>
+                            <constraint firstItem="Ifw-aB-vag" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="EQr-TX-HpU"/>
                             <constraint firstItem="Jtr-Zw-BiV" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="40" id="FTN-96-lIF"/>
+                            <constraint firstItem="PB2-hR-SZ6" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="Frf-Gu-x4e"/>
+                            <constraint firstItem="83J-jC-U2J" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="GKU-uf-z77"/>
                             <constraint firstItem="Jtr-Zw-BiV" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="40" id="JCs-xK-zvL"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="PB2-hR-SZ6" secondAttribute="trailing" constant="20" id="Ku8-QF-Z1x"/>
+                            <constraint firstItem="PB2-hR-SZ6" firstAttribute="top" secondItem="Jtr-Zw-BiV" secondAttribute="bottom" constant="150" id="Ngr-fa-ktu"/>
                             <constraint firstItem="oT5-Cr-e7l" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Nhm-qe-H9s"/>
                             <constraint firstItem="fAY-pa-zHE" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="OU3-OO-8X3"/>
                             <constraint firstItem="Jtr-Zw-BiV" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="40" id="QQw-PG-c6V"/>
+                            <constraint firstItem="kYh-aG-crz" firstAttribute="top" secondItem="cdl-dA-hei" secondAttribute="bottom" constant="10" id="Rez-U8-Geh"/>
+                            <constraint firstItem="cdl-dA-hei" firstAttribute="top" secondItem="PB2-hR-SZ6" secondAttribute="bottom" constant="20" id="STJ-Mq-c2J"/>
+                            <constraint firstItem="83J-jC-U2J" firstAttribute="top" secondItem="kYh-aG-crz" secondAttribute="bottom" constant="30" id="SjX-az-NfM"/>
+                            <constraint firstItem="cdl-dA-hei" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="20" id="YzZ-5D-QgD"/>
                             <constraint firstAttribute="trailing" secondItem="oT5-Cr-e7l" secondAttribute="trailing" id="cXJ-G6-eXf"/>
                             <constraint firstItem="Jtr-Zw-BiV" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="40" id="efL-Hd-GeX"/>
                             <constraint firstItem="oT5-Cr-e7l" firstAttribute="top" secondItem="fAY-pa-zHE" secondAttribute="bottom" constant="50" id="ftv-Ns-yMR"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="cdl-dA-hei" secondAttribute="trailing" constant="20" id="hcu-3c-dkp"/>
                             <constraint firstItem="oT5-Cr-e7l" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="iqC-j5-6Wn"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="kYh-aG-crz" secondAttribute="trailing" constant="20" id="k78-rC-3wL"/>
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Jtr-Zw-BiV" secondAttribute="trailing" constant="40" id="mC7-f7-VXm"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="83J-jC-U2J" secondAttribute="trailing" constant="20" id="pEw-wW-4eQ"/>
                             <constraint firstItem="Jtr-Zw-BiV" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="40" id="pWX-sm-3at"/>
                             <constraint firstAttribute="trailing" secondItem="oT5-Cr-e7l" secondAttribute="trailing" id="vat-Pg-fWT"/>
+                            <constraint firstItem="fAY-pa-zHE" firstAttribute="top" secondItem="Ifw-aB-vag" secondAttribute="bottom" constant="20" id="vvi-1T-osK"/>
                             <constraint firstAttribute="bottom" secondItem="oT5-Cr-e7l" secondAttribute="bottom" id="wzf-KH-lcc"/>
                         </constraints>
                     </view>
@@ -111,6 +163,9 @@
         <image name="LaunchScreen" width="304" height="153"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
