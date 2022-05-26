@@ -29,6 +29,8 @@
 		A0BD32D0283C972F00D1103C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BD32CF283C972F00D1103C /* Colors.xcassets */; };
 		A0BD32D3283DE4BE00D1103C /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD32D2283DE4BE00D1103C /* Shadow.swift */; };
 		A0BD32D5283F1CD400D1103C /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BD32D4283F1CD400D1103C /* Onboarding.storyboard */; };
+		A0BD32D7283F25E700D1103C /* OnboardingContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD32D6283F25E700D1103C /* OnboardingContainerViewController.swift */; };
+		A0BD32DB283F29A200D1103C /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD32DA283F29A200D1103C /* OnboardingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,8 @@
 		A0BD32CF283C972F00D1103C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		A0BD32D2283DE4BE00D1103C /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
 		A0BD32D4283F1CD400D1103C /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		A0BD32D6283F25E700D1103C /* OnboardingContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingContainerViewController.swift; sourceTree = "<group>"; };
+		A0BD32DA283F29A200D1103C /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +192,8 @@
 			isa = PBXGroup;
 			children = (
 				A0BD32D4283F1CD400D1103C /* Onboarding.storyboard */,
+				A0BD32D6283F25E700D1103C /* OnboardingContainerViewController.swift */,
+				A0BD32DA283F29A200D1103C /* OnboardingViewController.swift */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -351,8 +357,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0185E6C28067EC600986062 /* ViewController.swift in Sources */,
+				A0BD32DB283F29A200D1103C /* OnboardingViewController.swift in Sources */,
 				A0BD32D3283DE4BE00D1103C /* Shadow.swift in Sources */,
 				A0185E6828067EC600986062 /* AppDelegate.swift in Sources */,
+				A0BD32D7283F25E700D1103C /* OnboardingContainerViewController.swift in Sources */,
 				A0185E6A28067EC600986062 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
