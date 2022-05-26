@@ -28,6 +28,7 @@
 		A04A35D028092761009C4601 /* Transactions.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A04A35CF28092761009C4601 /* Transactions.storyboard */; };
 		A0BD32D0283C972F00D1103C /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0BD32CF283C972F00D1103C /* Colors.xcassets */; };
 		A0BD32D3283DE4BE00D1103C /* Shadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BD32D2283DE4BE00D1103C /* Shadow.swift */; };
+		A0BD32D5283F1CD400D1103C /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0BD32D4283F1CD400D1103C /* Onboarding.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		A04A35CF28092761009C4601 /* Transactions.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Transactions.storyboard; sourceTree = "<group>"; };
 		A0BD32CF283C972F00D1103C /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		A0BD32D2283DE4BE00D1103C /* Shadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shadow.swift; sourceTree = "<group>"; };
+		A0BD32D4283F1CD400D1103C /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 		A0185EAE2807D91700986062 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
+				A0BD32D4283F1CD400D1103C /* Onboarding.storyboard */,
 			);
 			path = Onboarding;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 				A01748FF2807E0A00053C559 /* View.xib in Resources */,
 				A0185E7428067EC700986062 /* LaunchScreen.storyboard in Resources */,
 				A0BD32D0283C972F00D1103C /* Colors.xcassets in Resources */,
+				A0BD32D5283F1CD400D1103C /* Onboarding.storyboard in Resources */,
 				A0185E7128067EC700986062 /* Assets.xcassets in Resources */,
 				A00EB8E1280A70B2008D8255 /* Statistics.storyboard in Resources */,
 				A0185E6F28067EC600986062 /* Main.storyboard in Resources */,
